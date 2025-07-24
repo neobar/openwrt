@@ -1,0 +1,15 @@
+/dts-v1/;
+#include "mt7981b-openfi-6c-common.dtsi"
+
+/ {
+    model = "OpenFi 6C-V2";
+    compatible = "openfi,6c-v2", "mediatek,mt7981b";
+
+    gpio-leds {
+        led-3 {
+            function = LED_FUNCTION_MOBILE;
+            color = <LED_COLOR_ID_GREEN>;
+            gpios = <&pio 11 GPIO_ACTIVE_LOW>;
+        };
+    };
+};
