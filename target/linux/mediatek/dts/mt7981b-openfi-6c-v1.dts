@@ -1,0 +1,7 @@
+/dts-v1/;
+#include "mt7981b-openfi-6c-common.dtsi"
+
+/ {
+    model = "OpenFi 6C-V1";
+    compatible = "openfi,6c-v1", "mediatek,mt7981";
+};
